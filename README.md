@@ -25,8 +25,6 @@ $> node index
 
 Using HTTPS: Simply pass in PEM-encoded certificate and key.
 
-```javascript
-var fs = require('fs');
 var PeerServer = require('peer').PeerServer;
 
 var server = PeerServer({
